@@ -1,4 +1,15 @@
-# SSM框架整合测试项目
+# Spring+SpringMVC+MyBatis 学习
+## 知识学习
+[SSM学习](https://how2j.cn/k/ssm/ssm-tutorial/1137.html)
+### java 面试题
+1. HashMap和HashTable区别
+2. String、StringBuffer、StringBuilder区别
+3.  String类能被继承吗？
+
+### Spring 面试题
+### SpringMVC 面试题
+### MyBatis 面试题
+
 ## SSM项目配置过程
 ##### 第一步 ： 配置Spring配置文件 applicationContext.xml
 ```html
@@ -104,13 +115,4 @@
 </welcome-file-list>	
 </web-app>
 ```
-## SSM知识学习
-[SSM学习](https://how2j.cn/k/ssm/ssm-tutorial/1137.html)
-### java 面试题
-1. HashMap和HashTable区别
-2. String、StringBuffer、StringBuilder区别
-3.  String类能被继承吗？
 
-### Spring 面试题
-### SpringMVC 面试题
-### MyBatis 面试题
