@@ -12,7 +12,8 @@
 		<context:include-filter type="annotation"
 			expression="org.springframework.stereotype.Repository" />
 		<context:include-filter type="annotation"
-			expression="org.springframework.stereotype.Service" />
+			expression="org.springframework.stereotype.Service" /><context:include-filter
+			type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 
 	<!-- 配置数据源 -->

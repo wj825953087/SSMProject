@@ -1,14 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/user/out" method="post">
-		<input type="submit" value="d">
-	</form>
+	<form action="<%=request.getContextPath() %>/user/hello" method="get">
+
+			<input type="submit" value="提交">
+		</form>
 </body>
 </html>
