@@ -1,6 +1,21 @@
 # Spring+SpringMVC+MyBatis 学习
 ## 知识学习
 [SSM学习](https://how2j.cn/k/ssm/ssm-tutorial/1137.html)
+### Restful学习
+1.Restful风格是什么？<br/>
+在做Web开发的过程中，method常用的值是get和post. 可事实上，method值还可以是put和delete等等其他值。既然method值如此丰富，那么就可以考虑使用同一个url，但是约定不同的method来实施不同的业务，这就是Restful的基本考虑。<br/>
+使用Restful 风格之前，通常的增加做法是这样的：/addCategory?name=xxx.使用以后就变成：/categories.<br/><br/>
+
+|            |            |         |          |        |
+| --------   |-----:| :----:  |:----:    |:----: |
+|            |   传统风格  |  Restful风格	   | |
+|            | url      | method   |   url      | 	method   |
+| 增加       |/addCategory?name=xxx 	     |POST  | /categories      |  POST	 |
+| 删除       |/deleteCategory?id=123           |GET   |  /categories/123  |DELETE	 |
+| 修改       |/updateCategory?id=123&name=yyy  |POST  |  /categories/123  |PUT	 |	
+| 获取       |/getCategory?id=123              |GET   |  /categories  |GET	 |	
+| 查询       | /listCategory                   |  GET  |/categories |GET|	
+
 ### java 面试题
 1. HashMap和HashTable区别
 2. String、StringBuffer、StringBuilder区别
