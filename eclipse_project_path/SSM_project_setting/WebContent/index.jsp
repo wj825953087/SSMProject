@@ -7,10 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="listUser" method="get">
+	<form action="user/listUser2" method="get">
 
 			<input type="submit" value="提交">
 		</form>
-	<a href="listUser">aaa</a>	
+	<a href="user/listUser">aaa</a>	
+	<a href="user/list">aaa</a>	
 </body>
 </html>
